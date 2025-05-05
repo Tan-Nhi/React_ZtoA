@@ -18,7 +18,7 @@ const App = () => {
     country: "Vietnam"
   }
 
-  const addnewtodo = (name) => {
+  const addNewTodo = (name) => {
     const newTodo = {
       id: randomIntFromInterval(1, 1000000),
       name: name
@@ -36,7 +36,7 @@ const App = () => {
     <div className="todo-container">
       <div className="todo-title">Todo List</div>
       <TodoNew
-        addnewtodo={addnewtodo}
+        addNewTodo={addNewTodo}
 
       />
       <TodoData
