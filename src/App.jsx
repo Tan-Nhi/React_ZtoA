@@ -7,16 +7,10 @@ import { useState } from 'react'
 const App = () => {
 
   const [todoList, setTodoList] = useState([
-    { id: 1, name: " Crocodile T1 " },
-    { id: 2, name: "Watching Youtube" },
+    // { id: 1, name: " Crocodile T1 " },
+    // { id: 2, name: "Watching Youtube" },
   ])
 
-  const crocodile = 'Crocodile T1';
-  const age = 25;
-  const data = {
-    address: "hanoi",
-    country: "Vietnam"
-  }
 
   const addNewTodo = (name) => {
     const newTodo = {
@@ -40,9 +34,7 @@ const App = () => {
 
       />
       <TodoData
-        name={crocodile}
-        age={age}
-        data={data}
+
         todoList={todoList}
       />
       <div className="todo-image">
