@@ -11,7 +11,7 @@ const TodoNew = (props) => {
 
     //fire 
     const handleClcick = () => {
-        console.log("check value input", valueInput);
+        addnewtodo(valueInput)
 
     }
 
